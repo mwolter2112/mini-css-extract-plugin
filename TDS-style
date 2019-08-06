@@ -1,0 +1,278 @@
+
+/* TELUS TEMPLATE CSS */
+body, html {
+	font-family: "tlightregular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	background-color: #f5f6f7 !important;
+	color: #595859 !important;
+	-webkit-font-smoothing: antialiased !important;
+	-webkit-text-size-adjust: none;
+}
+
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0px !important;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+input, select, textarea {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}
+
+img{
+	vertical-align: baseline  !important;
+}
+
+.meganav a { 
+	font-family: "tlightregular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.meganav a:hover {
+	color: #a370c7 !important; 
+}
+
+.meganav-account-title{
+	padding: 0 0 0 0 !important;
+}
+
+.uss-nav{
+	padding-left: 20px !important;
+}
+
+.uss-nav-item{
+}
+
+.uss-nav-item a{
+	font-family: "tlightregular", "Helvetica Neue", Helvetica, Arial, sans-serif  !important;
+	color: white !important;
+}
+
+.uss-nav-trigger{
+	color: white !important;
+}
+
+
+
+.form-select { 
+	font-family: "tlightregular", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: 14px; 
+	line-height: 24px; 
+	float: left; 
+	width: 100%; 
+	background: url("//static.telus.com/common/images/footer/icon-arrow-down-purple.svg") no-repeat 99.8% 50%; background-size: 15px 9px; 
+}
+
+
+/*****
+footer {
+	position:absolute !important;
+	width: 100%;
+	bottom:0;
+	left:0;
+}
+
+#telus-logo-copyright {
+	padding-top: 10px !important;
+	padding-bottom: 20px !important;
+	margin-bottom: 0px !important;
+}
+	*/
+
+.meganav-l1-link {
+	font-size: 16px !important;
+    padding: 26px 30px 22px 30px !important;
+}
+
+.frg-link.color-purple, a.has-icon, a, #telus-beta-info .frg-link.button, #telus-beta-info a.button {
+	color: #49166d !important;
+}
+
+.beta-welcome--collapse {
+	color: #66cc00 !important;
+}
+
+.beta-welcome .grid {
+	padding-top: 25px !important;
+	padding-bottom: 10px !important;
+}
+
+.beta-logo{
+	margin-top: 4px !important;
+}
+
+@media (min-width: 768px){
+	.beta-welcome img {
+		top: 3;
+	}		
+}
+
+@media (min-width: 768px){
+	.uss-nav-item.selected a {
+		color: #3d3c3c !important;
+	}
+}	
+
+@media (min-width: 768px){
+	.uss-nav-item a {
+		color: white !important;
+		border: 1px solid transparent !important;
+	}
+}
+
+.frg-button.color-purple, a.frg-button, .store-locator a.directions, .store-locator .color-purple.directions, #telus-beta-info .button {
+	color: white !important;
+	background-image: linear-gradient(#c6b3d3, #c6b3d3 1%, #8c68a6 1%, #8c68a6 90%, #49166d 90%, #49166d) !important;
+	background-color: #8c68a6 !important;	
+}
+	
+@media (min-width: 768px){
+	#telus-beta-info h3 {
+		font-size: 37px !important;
+		font-family: "tthinregular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+		line-height: 42px !important;
+		margin-bottom: 20px !important;
+	}	
+}	
+
+.my-account-footer a {
+	color: #66cc00 !important;
+}
+	
+.telus-button{
+	cursor: pointer !important;
+	line-height: 1em !important;
+	text-align: center !important;
+	text-shadow: rgba(89,88,89,0.2) 0 1px 0 !important;
+	border: none !important;
+	border-radius: 3px !important;
+	box-shadow: 0px 2px 0px 0 rgba(51,51,51,0.13) !important;
+	display: inline-block !important;
+	text-decoration: none !important;
+	color: white !important;
+	background-size: 100% !important;	
+	background-image: linear-gradient(#b3ff66,#b3ff66 1%,#66cc00 1%,#66cc00 90%,#57a708 90%,#57a708) !important;
+	background-color: #66cc00 !important;
+	height: 46px !important;
+	white-space: nowrap !important;	
+}
+
+.telus-button-purple{
+	cursor: pointer !important;
+	line-height: 1em !important;
+	text-align: center !important;
+	text-shadow: rgba(89,88,89,0.2) 0 1px 0 !important;
+	border: none !important;	
+	border-radius: 3px !important;
+	box-shadow: 0px 2px 0px 0 rgba(51,51,51,0.13) !important;
+	display: inline-block !important;
+	text-decoration: none !important;
+	color: white !important;
+	background-size: 100% !important;	
+	background-color: #8c68a6 !important;
+	background-image: linear-gradient(#c6b3d3,#c6b3d3 1%,#8c68a6 1%,#8c68a6 90%,#49166d 90%,#49166d) !important;
+	height: 46px !important;
+	white-space: nowrap !important;	
+}
+	
+.telus-button-purple:hover {
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c6b3d3), color-stop(1%, #c6b3d3), color-stop(1%, #b196c1), color-stop(90%, #b196c1), color-stop(90%, #7b5892), color-stop(100%, #7b5892)) !important;
+	background-image: -webkit-linear-gradient(#c6b3d3, #c6b3d3 1%, #b196c1 1%, #b196c1 90%, #7b5892 90%, #7b5892) !important;
+	background-image: -moz-linear-gradient(#c6b3d3, #c6b3d3 1%, #b196c1 1%, #b196c1 90%, #7b5892 90%, #7b5892) !important;
+	background-image: -o-linear-gradient(#c6b3d3, #c6b3d3 1%, #b196c1 1%, #b196c1 90%, #7b5892 90%, #7b5892) !important;
+	background-image: linear-gradient(#c6b3d3, #c6b3d3 1%, #b196c1 1%, #b196c1 90%, #7b5892 90%, #7b5892) !important;
+	background-color: #b196c1 !important;
+}
+
+.telus-button-white{
+	cursor: pointer !important;
+	line-height: 1em !important;
+	text-align: center !important;
+	text-shadow: rgba(89,88,89,0.2) 0 1px 0 !important;
+	border: 1px solid #cecece !important;
+	border-radius: 3px !important;
+	box-shadow: 0px 2px 0px 0 rgba(51,51,51,0.13) !important;
+	display: inline-block !important;
+	text-decoration: none !important;
+	color: #49166d !important;
+	background-size: 100% !important;	
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(1%, #ffffff), color-stop(1%, #ffffff), color-stop(90%, #ffffff), color-stop(90%, #e2e2e2), color-stop(100%, #e2e2e2)) !important;
+	background-image: -webkit-linear-gradient(#ffffff,#ffffff 1%,#ffffff 1%,#ffffff 90%,#e2e2e2 90%,#e2e2e2) !important;
+	background-image: -moz-linear-gradient(#ffffff,#ffffff 1%,#ffffff 1%,#ffffff 90%,#e2e2e2 90%,#e2e2e2) !important;
+	background-image: -o-linear-gradient(#ffffff,#ffffff 1%,#ffffff 1%,#ffffff 90%,#e2e2e2 90%,#e2e2e2) !important;
+	background-image: linear-gradient(#ffffff,#ffffff 1%,#ffffff 1%,#ffffff 90%,#e2e2e2 90%,#e2e2e2) !important;
+	background-color: #fff !important;
+	height: 46px !important;
+	padding: 10px 12px 14px 12px !important;
+	white-space: nowrap !important;	
+}
+
+.disabled-btn{
+	cursor: default !important;
+	color: #d8d8d8 !important;
+	background-color: #a0a0a0 !important;
+	background-image: linear-gradient(#a0a0a0,#a0a0a0 1%,#a0a0a0 1%,#a0a0a0 90%,#909090 90%,#909090) !important;
+}
+
+
+.mbr-icon, .mbr-select-container:after {
+	font-family: 'mbrregular';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	text-rendering: optimizeLegibility;
+	color: inherit;
+}
+
+.mbr-icon:before  {
+	font-family: 'mbrregular' !important;
+}
+
+/*.mbr-icon:hover  {
+	color: #8c68a6 !important;
+}*/
+
+.mbr-icon.mbr-icon-img-file:before {
+	content:"\0052" !important;
+}
+
+.mbr-icon.mbr-icon-zip-file:before {
+	content:"\005A" !important;
+}
+
+.mbr-icon.mbr-icon-general-file:before {
+	content:"\0066" !important;
+}
+
+.mbr-icon.mbr-icon-question-mark:before {
+	content:"\0027" !important;
+}
+
+@media (min-width: 768px){
+
+.uss-nav-item a .mbr-icon, .uss-nav-item a .frg-select-container:after {
+	font-size: 28px;
+	display: block;
+	margin-bottom: 10px;
+	z-index: 1;
+	}
+
+.uss-nav-item.selected .mbr-icon {
+	color: #6c0;
+}
+
+}
+
+@media (min-width: 1100px){
+
+.uss-nav-item a .mbr-icon, .uss-nav-item a .frg-select-container:after {
+	position: absolute;
+	left: 15px;
+	top: 19px;
+	font-size: 21px;
+	display: block;
+	margin-bottom: 0;
+}
+}
